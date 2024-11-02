@@ -1,0 +1,456 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA_lite20
+vbuffer
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!i10b 1
+!s100 XLH6DGmO2B<Q7`X^INjFO1
+IFdK;<7lF9koolS0@NONKK0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 !s105 testbanch_sv_unit
+S1
+Z3 dD:/PLIS_projects/FPGA_PLIS/5_week/my_UART
+Z4 w1729758165
+8buffer.sv
+Z5 Fbuffer.sv
+!i122 115
+L0 1 36
+Z6 OV;L;2020.1;71
+31
+Z7 !s108 1729758168.000000
+Z8 !s107 trigger_x.sv|shift_reg_par_in.sv|shift_reg_con_in.sv|buffer.sv|transmitter_UART.sv|receiver_UART.sv|testbanch.sv|
+Z9 !s90 -work|work.|testbanch.sv|
+!i113 1
+Z10 o-work work.
+Z11 tCvgOpt 0
+vreceiver_UART
+R2
+Z12 DXx4 work 17 testbanch_sv_unit 0 22 4dWb0B2=:<Zd<H]FR0EV<0
+R0
+Z13 !s110 1729758168
+!i10b 1
+!s100 Q_Voicjg2N0h7=>SRdgE12
+Z14 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ID=F3f2JU;knYjbD^G[EK50
+R1
+S1
+R3
+w1729750148
+8receiver_UART.sv
+Z15 Freceiver_UART.sv
+!i122 115
+Z16 L0 1 75
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nreceiver_@u@a@r@t
+vshift_reg_con_in
+R0
+Z17 !s110 1730551120
+!i10b 1
+!s100 ;z]^]hPaBeT@RTLAAZ`D60
+R14
+IU[VcX`>8ZbYXg@SMCWNbd1
+R1
+S1
+R3
+Z18 w1730550919
+Z19 8../../bank_modules.sv
+Z20 F../../bank_modules.sv
+!i122 193
+L0 33 20
+R6
+r1
+!s85 0
+31
+Z21 !s108 1730551120.000000
+!s107 ../../bank_modules.sv|testbanch.sv|
+R9
+!i113 1
+R10
+R11
+vshift_reg_par_in
+R0
+R17
+!i10b 1
+!s100 LUYfeLYN7LO]EbPMTf`E30
+R14
+IL[IC;6JmOjk@A`B_do`DW0
+R1
+S1
+R3
+R18
+R19
+R20
+!i122 193
+L0 54 26
+R6
+r1
+!s85 0
+31
+R21
+Z22 !s107 ../../bank_modules.sv|testbanch.sv|
+R9
+!i113 1
+R10
+R11
+vtestbanch
+R0
+R17
+!i10b 1
+!s100 ?KB>Bm`^L^SLTJ5Pk9gDG2
+R14
+If;SLJG0b5N1=KMF5CH;OC2
+R1
+S1
+R3
+w1730551028
+Z23 8testbanch.sv
+Z24 Ftestbanch.sv
+!i122 193
+L0 3 82
+R6
+r1
+!s85 0
+31
+R21
+R22
+R9
+!i113 1
+R10
+R11
+Xtestbanch_sv_unit
+R0
+R13
+V4dWb0B2=:<Zd<H]FR0EV<0
+r1
+!s85 0
+!i10b 1
+!s100 L@bXK6fO>Z85`4BTM:LjA3
+I4dWb0B2=:<Zd<H]FR0EV<0
+!i103 1
+S1
+R3
+R4
+R23
+R24
+R15
+Z25 Ftransmitter_UART.sv
+R5
+Fshift_reg_con_in.sv
+Fshift_reg_par_in.sv
+Ftrigger_x.sv
+!i122 115
+L0 75 0
+R6
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtestbench
+R0
+DXx4 work 17 testbanch_sv_unit 0 22 gKIBB6VTaiGO]Pd[U?]:o3
+!s110 1729588893
+R1
+r1
+!s85 0
+!i10b 1
+!s100 ALKlfaQgofSd=c4Y=IR7Y2
+I_2OkgT209FoIA;=3Rnn2H2
+R2
+S1
+R3
+w1729588406
+R23
+R24
+!i122 71
+L0 5 51
+R6
+31
+!s108 1729588893.000000
+!s107 trigger_x.sv|UART.sv|shift_reg_con_in.sv|testbanch.sv|
+R9
+!i113 1
+R10
+R11
+vtrans_UART
+R2
+Z26 DXx4 work 17 testbanch_sv_unit 0 22 zPn8j6X?^`F5_mCliXOe<0
+R0
+!s110 1729691907
+!i10b 1
+!s100 9YcP?;XXnKVXPTLUPR68]3
+R14
+I]3W6Lg?MXaHOm80aKAinV0
+R1
+S1
+R3
+w1729657842
+Z27 8transmitter_UART.sv
+R25
+!i122 95
+R16
+R6
+r1
+!s85 0
+31
+!s108 1729691907.000000
+Z28 !s107 trigger_x.sv|transmitter_UART.sv|shift_reg_con_in.sv|testbanch.sv|
+R9
+!i113 1
+R10
+R11
+ntrans_@u@a@r@t
+vtransmitter_UART
+R0
+R12
+R13
+R1
+r1
+!s85 0
+!i10b 1
+!s100 :3KN2Plz=jUXLHe5`IJWh2
+IjKJ<Hl@K0^RF0E?eVXEUT2
+R2
+S1
+R3
+w1729750203
+R27
+R25
+!i122 115
+L0 1 71
+R6
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+ntransmitter_@u@a@r@t
+vtrigger_d
+R0
+R17
+!i10b 1
+!s100 <:HVnMSfOobGb?5?PWET32
+R14
+IGjZ4i@d>C03JIYJ@=Kdkz1
+R1
+S1
+R3
+R18
+R19
+R20
+!i122 193
+L0 18 14
+R6
+r1
+!s85 0
+31
+R21
+R22
+R9
+!i113 1
+R10
+R11
+vtrigger_x
+R0
+R17
+!i10b 1
+!s100 6R:W7NKc9h[`Z_Pe=[]QO3
+R14
+IF6SQnTLa;L2JiOo7N4>@E1
+R1
+S1
+R3
+R18
+R19
+R20
+!i122 193
+L0 1 16
+R6
+r1
+!s85 0
+31
+R21
+R22
+R9
+!i113 1
+R10
+R11
+vUART
+R2
+R26
+R0
+!s110 1729655157
+!i10b 1
+!s100 Dd2VUA3Hc?gE3R5TEBl`:0
+R14
+Igg;?ceZULA6J0i6NmYQ?=0
+R1
+S1
+R3
+w1729591139
+R27
+R25
+!i122 92
+R16
+R6
+r1
+!s85 0
+31
+!s108 1729655157.000000
+R28
+R9
+!i113 1
+R10
+R11
+n@u@a@r@t
+vUART_buffer
+R0
+Z29 !s110 1730132788
+!i10b 1
+!s100 DLce_KaPT@SCd0z3kOn1;2
+R14
+I8H2b]?@8:h?`@aj2<`[YN3
+R1
+S1
+R3
+w1729962808
+8D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_buffer.sv
+FD:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_buffer.sv
+!i122 181
+L0 1 22
+R6
+r1
+!s85 0
+31
+Z30 !s108 1730132788.000000
+!s107 D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_buffer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_buffer.sv|
+!i113 1
+Z31 o-work work -sv
+R11
+n@u@a@r@t_buffer
+vUART_receiver
+R0
+!s110 1730129981
+!i10b 1
+!s100 n59:=XiOeE54?`<WZ>eSi1
+R14
+IdB0Dg92?ZkOnb=5B0H?0:2
+R1
+S1
+R3
+w1729962489
+8D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_receiver.sv
+FD:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_receiver.sv
+!i122 125
+Z32 L0 1 73
+R6
+r1
+!s85 0
+31
+!s108 1730129981.000000
+!s107 D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_receiver.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_receiver.sv|
+!i113 1
+R31
+R11
+n@u@a@r@t_receiver
+vUART_reciever
+R0
+R29
+!i10b 1
+!s100 JHeXSO3W_7N<d`Aje7PNi1
+R14
+IgclPFc9DZQ`zcf_5mN0QC1
+R1
+S1
+R3
+w1730132564
+8D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_reciever.sv
+FD:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_reciever.sv
+!i122 184
+R32
+R6
+r1
+!s85 0
+31
+R30
+!s107 D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_reciever.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_reciever.sv|
+!i113 1
+R31
+R11
+n@u@a@r@t_reciever
+XUART_sv_unit
+R0
+!s110 1729588886
+VQiQ^nXP4SQW:P0QEA>?_S0
+r1
+!s85 0
+!i10b 1
+!s100 `giCoDL71U@@0F47dU@l21
+IQiQ^nXP4SQW:P0QEA>?_S0
+!i103 1
+S1
+R3
+w1729585576
+8D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART.sv
+FD:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART.sv
+!i122 69
+L0 77 0
+R6
+31
+!s108 1729588886.000000
+!s107 D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART.sv|
+!i113 1
+R31
+R11
+n@u@a@r@t_sv_unit
+vUART_transmitter
+R0
+R29
+!i10b 1
+!s100 <Uk<`VQ5kHTlPe:oCQBn]2
+R14
+IQXAn0mP3bN7Tfhb^2>>zg3
+R1
+S1
+R3
+w1730131363
+8D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_transmitter.sv
+FD:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_transmitter.sv
+!i122 182
+L0 1 65
+R6
+r1
+!s85 0
+31
+R30
+!s107 D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_transmitter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/PLIS_projects/FPGA_PLIS/5_week/my_UART/UART_transmitter.sv|
+!i113 1
+R31
+R11
+n@u@a@r@t_transmitter

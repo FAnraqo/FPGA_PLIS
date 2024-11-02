@@ -7,6 +7,9 @@
 2_week/binary_counter/output_files
 2_week/binary_counter/work
 2_week/shift_registers/work
+5_week/my_UART/work
+5_week/my_UART/transcript
+5_week/my_UART/wlftfwzt3r
 *.bdf
 *.qsf
 *.qws
@@ -16,3 +19,4 @@
 *.qip
 *.v
 *.wlf
+*.vstf

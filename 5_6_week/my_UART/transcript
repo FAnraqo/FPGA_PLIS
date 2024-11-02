@@ -1,0 +1,30 @@
+# Reading pref.tcl
+# vsim -gui work.testbanch -do "do add_wave.tcl; do res.tcl" 
+# Start time: 19:38:52 on Nov 02,2024
+# Loading sv_std.std
+# Loading work.testbanch
+# Loading work.trigger_x
+# Loading work.UART_reciever
+# Loading work.shift_reg_con_in
+# Loading work.UART_buffer
+# Loading work.UART_transmitter
+# Loading work.shift_reg_par_in
+# do add_wave.tcl
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vs045  Hostname: HOME_PC  ProcessID: 15352
+#           Attempting to use alternate WLF file "./wlftfwzt3r".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfwzt3r
+# unsigned
+# unsigned
+# unsigned
+# unsigned
+# unsigned
+# unsigned
+#  do res.tcl
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: $stop    : testbanch.sv(18)
+#    Time: 4010 ps  Iteration: 1  Instance: /testbanch
+# Break in Module testbanch at testbanch.sv line 18
+# 0 ps
+# 4211 ps
