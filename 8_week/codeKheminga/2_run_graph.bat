@@ -1,0 +1,1 @@
+vsim -gui work.testbanch -do "do add_wave_d.tcl; do res.tcl"
