@@ -1,0 +1,18 @@
+# Reading pref.tcl
+# vsim -gui work.testbanch -do "do add_wave_d.tcl; do res.tcl" 
+# Start time: 16:58:10 on Nov 22,2024
+# Loading sv_std.std
+# Loading work.testbanch
+# Loading work.trigger_x
+# Loading work.encoding
+# Loading work.decoding
+# do add_wave_d.tcl
+# unsigned
+#  do res.tcl
+# ** Note: $stop    : testbanch_Kheming.sv(20)
+#    Time: 410 ps  Iteration: 1  Instance: /testbanch
+# Break in Module testbanch at testbanch_Kheming.sv line 20
+# 0 ps
+# 431 ps
+# End time: 17:46:37 on Nov 22,2024, Elapsed time: 0:48:27
+# Errors: 0, Warnings: 0

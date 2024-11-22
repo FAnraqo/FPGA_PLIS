@@ -4,10 +4,12 @@ sim:/testbanch/cnt_taktov \
 sim:/testbanch/reset \
 sim:/testbanch/start \
 sim:/testbanch/active \
-sim:/testbanch/clk2 \
+sim:/testbanch/test_in \
+sim:/testbanch/result \
 sim:/testbanch/bits_in \
 sim:/testbanch/byte_out \
-sim:/testbanch/shift
+sim:/testbanch/ready \
+sim:/testbanch/bits_out
 
 radix signal sim:/testbanch/cnt_taktov -unsigned
 
@@ -21,7 +23,7 @@ sim:/testbanch/encoding/ready_tmp
 
 add wave -position insertpoint  \
 sim:/testbanch/decoding/bits_out \
-sim:/testbanch/decoding/syndromes \
+sim:/testbanch/decoding/verification_matrix \
 sim:/testbanch/decoding/cnt_2 \
 sim:/testbanch/decoding/ready_tmp \
 sim:/testbanch/decoding/error

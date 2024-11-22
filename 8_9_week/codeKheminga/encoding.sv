@@ -3,7 +3,7 @@ module encoding # (parameter M=4)
     input reset,
     input clk,
     input reg [0:3] bits_in,
-    input shift,
+    input active,
     output reg [0:6] byte_out,
     output reg ready
   );
@@ -28,23 +28,23 @@ module encoding # (parameter M=4)
       ready <= 0;
       cnt_2 <= 0;
     end else  begin
-          if (shift == 1 && ready_tmp == 1) begin
+          if (active && ready_tmp == 1) begin
 
-            if (cnt_2 == 1) begin
-              byte_out <= {bits_in[0:3], encod_bits[0:2]};
-              byte_out[0] <= 0;
+            byte_out[0] <= ~bits_in[0];
+            byte_out[1] <= bits_in[1];
+            byte_out[2] <= bits_in[2];
+            byte_out[3] <= bits_in[3];
+            byte_out[4] <= bits_in[0] ^ bits_in[1] ^ bits_in[3];
+            byte_out[5] <= bits_in[0] ^ bits_in[2] ^ bits_in[3];
+            byte_out[6] <= bits_in[1] ^ bits_in[2] ^ bits_in[3];
 
-              ready_tmp <= 0;
-              ready <= 1;
-            end
-
-            if (ready_tmp == 1)begin
-              encod_bits[0] <= encod_bits[0] ^ bits_in[0] ^ bits_in[1] ^ bits_in[3];
-              encod_bits[1] <= encod_bits[1] ^ bits_in[0] ^ bits_in[2] ^ bits_in[3];
-              encod_bits[2] <= encod_bits[2] ^ bits_in[1] ^ bits_in[2] ^ bits_in[3];
-            end
-
+            ready <= 1;
             cnt_2 <= cnt_2 + 1;
+
+            if (cnt_2 == 6) begin
+              ready_tmp <= 0;
+              ready <= 0;
+            end
             
           end
         end
