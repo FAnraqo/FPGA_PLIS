@@ -1,4 +1,4 @@
-module encoding # (parameter M=4)
+module encoding
   (
     input reset,
     input clk,
@@ -11,7 +11,6 @@ module encoding # (parameter M=4)
   reg [20:0] verification_matrix;
   reg [0:2] encod_bits;
   reg [2:0] cnt_2;
-  reg [2:0] cnt_7;
 
   logic ready_tmp;
 
@@ -19,7 +18,6 @@ module encoding # (parameter M=4)
     verification_matrix = 21'b110110010110100111001;
     encod_bits = 3'b000;
     cnt_2 = 0;
-    cnt_7 = 0;
   end
 
   always @(posedge clk)
@@ -29,16 +27,10 @@ module encoding # (parameter M=4)
       ready_tmp <= 1;
       ready <= 0;
       cnt_2 <= 0;
-      cnt_7 <= 0;
     end else  begin
           if (active && ready_tmp == 1) begin
 
-            $display("Initial sequence");
-            $display(bits_in[0], bits_in[1], bits_in[2], bits_in[3]);
-            $display("Encoded sequence");
-            $display(byte_out[0], byte_out[1], byte_out[2], byte_out[3], byte_out[4], byte_out[5], byte_out[6]);
-
-            byte_out[0] <= bits_in[0];
+            byte_out[0] <= ~bits_in[0];
             byte_out[1] <= bits_in[1];
             byte_out[2] <= bits_in[2];
             byte_out[3] <= bits_in[3];
@@ -46,11 +38,8 @@ module encoding # (parameter M=4)
             byte_out[5] <= bits_in[0] ^ bits_in[2] ^ bits_in[3];
             byte_out[6] <= bits_in[1] ^ bits_in[2] ^ bits_in[3];
 
-            byte_out[cnt_7] <= ~byte_out[cnt_7];
-
             ready <= 1;
             cnt_2 <= cnt_2 + 1;
-            cnt_7 <= cnt_7 + 1;
 
             if (cnt_2 == 6) begin
               ready_tmp <= 0;

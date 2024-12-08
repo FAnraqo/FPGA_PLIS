@@ -1,5 +1,3 @@
-`include "../../bank_modules.sv"
-
 module testbanch;
 
   localparam cnt_width = 8;

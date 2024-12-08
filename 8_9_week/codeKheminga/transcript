@@ -1,18 +1,46 @@
 # Reading pref.tcl
-# vsim -gui work.testbanch -do "do add_wave_d.tcl; do res.tcl" 
-# Start time: 16:58:10 on Nov 22,2024
+# vsim -gui work.testbanch -do "do add_wave.tcl; do res.tcl" 
+# Start time: 13:54:03 on Dec 08,2024
 # Loading sv_std.std
 # Loading work.testbanch
 # Loading work.trigger_x
 # Loading work.encoding
 # Loading work.decoding
-# do add_wave_d.tcl
+# do add_wave.tcl
 # unsigned
 #  do res.tcl
+# Initial sequence
+# 0000
+# Encoded sequence
+# 0000000
+# Initial sequence
+# 1000
+# Encoded sequence
+# 1000000
+# Initial sequence
+# 0000
+# Encoded sequence
+# 1100110
+# Initial sequence
+# 0111
+# Encoded sequence
+# 0010000
+# Initial sequence
+# 1011
+# Encoded sequence
+# 0111001
+# Initial sequence
+# 0000
+# Encoded sequence
+# 1011110
+# Initial sequence
+# 0000
+# Encoded sequence
+# 0000000
 # ** Note: $stop    : testbanch_Kheming.sv(20)
 #    Time: 410 ps  Iteration: 1  Instance: /testbanch
 # Break in Module testbanch at testbanch_Kheming.sv line 20
 # 0 ps
 # 431 ps
-# End time: 17:46:37 on Nov 22,2024, Elapsed time: 0:48:27
+# End time: 15:32:31 on Dec 08,2024, Elapsed time: 1:38:28
 # Errors: 0, Warnings: 0

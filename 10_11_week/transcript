@@ -1,0 +1,13 @@
+# Reading pref.tcl
+# vsim -gui work.testbench -do "add wave sim:/testbench/*;add wave sim:/testbench/UART_reciever/*; run -all" 
+# Start time: 18:18:23 on Dec 08,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.trigger_x
+# Loading work.UART_reciever
+# Loading work.shift_reg_serial_in_par_out
+# ** Error (suppressible): (vsim-3584) testbench_UART.sv(43): Module parameter 'N' not found for override.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: testbench_UART.sv
+# Error loading design
+# End time: 18:18:24 on Dec 08,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
