@@ -1,0 +1,32 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# vsim -gui work.testbench -do "do add_wave.tcl; do res.tcl" 
+# Start time: 03:21:35 on Jan 23,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.trigger_x
+# Loading work.UART_reciever
+# Loading work.shift_reg_serial_in_par_out
+# Loading work.UART_buffer
+# Loading work.input_encoding
+# Loading work.encoding
+# Loading work.decoding
+# Loading work.output_decoding
+# Loading work.UART_transmitter
+# Loading work.shift_reg_par_in_serial_out
+# do add_wave.tcl
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Матвей  Hostname: SHMBLG4  ProcessID: 14952
+#           Attempting to use alternate WLF file "./wlftt2r30r".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftt2r30r
+# unsigned
+#  do res.tcl
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: $stop    : testbench_UART.sv(16)
+#    Time: 8010 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at testbench_UART.sv line 16
+# 0 ps
+# 8411 ps
+# End time: 02:37:01 on Jan 26,2025, Elapsed time: 71:15:26
+# Errors: 0, Warnings: 0
